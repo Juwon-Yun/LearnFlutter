@@ -24,6 +24,16 @@
       - width
       - height
       - child
+    4. Column
+      - mainAxisAlignment : MainAxisAlignment.center .start .end .space-around 등 flex임
+      - crossAxisAlignment : CrossAxisAlignment.center
+    5. Row
+      - mainAxisAlignment : MainAxisAlignment.center .start .end .space-around 등 flex임
+      - crossAxisAlignment : CrossAxisAlignment.center
+    6. Wrap
+      - direction : Axis.수평 .수직
+    7. Stack
+      - Stack : container를 쌓는다. ( 겹쳐서 그림 )
 
 ```
 
