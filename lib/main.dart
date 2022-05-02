@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/page/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,11 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: Scaffold(
-        appBar: AppBar(),
-        // flutter is not recommend new keyword
-        body: const Text("Flutter"),
-      ),
+      home: const JuwonHomePage(),
     );
   }
 }
+
