@@ -14,6 +14,7 @@ class JuwonHomePage extends StatelessWidget {
       // container color는 자식이 없다면 전체 화면을 먹는다.
       // 있다면 width 만큼 먹는다.
       // Center위젯은 옵션이 별로없어서 주로 container를 사용한다.
+        // 만약에 padding 밖에 없다면 container대신에 padding 역활만 하는 위젯을 사용하는 것을 추천한다.
       body: Container(color: Colors.yellow,
           // padding: const EdgeInsets.all(10),
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 50),

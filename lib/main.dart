@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/page/column_row_stack.dart';
 import 'package:learn_flutter/page/home_page.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: const JuwonHomePage(),
+      // home: const JuwonHomePage(),
+      home: const MultipleWidgetPage(),
     );
   }
 }
