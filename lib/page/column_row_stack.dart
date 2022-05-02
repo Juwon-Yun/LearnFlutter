@@ -27,11 +27,11 @@ class MultipleWidgetPage extends StatelessWidget {
         //   ],
         // ),
       // Wrap => overflow시에 정해놓은 방향으로 넘어간다.
-      body: Row(
+      body: Wrap(
         // direction: Axis.vertical,
         // width를 설정하지 않으면 텍스트 크기만큼 차지한다.
-        mainAxisSize: MainAxisSize.max,
-        mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
+        // mainAxisSize: MainAxisSize.max,
+        // mainAxisAlignment: MainAxisAlignment.center,crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
               color : Colors.yellow,
