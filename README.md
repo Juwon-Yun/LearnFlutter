@@ -13,8 +13,10 @@
       - height
       - padding
       - margin
+      - EdgeInsets.zero
       - EdgeInsets.all()
       - EdgeInsets.symmetric()
+      - EdgeInsets.only()
       - AlignmentGeometry() 9가지 옵션
         display : flex, justify-content, align-content랑 비슷함
       - alignment
@@ -34,6 +36,9 @@
       - direction : Axis.수평 .수직
     7. Stack
       - Stack : container를 쌓는다. ( 겹쳐서 그림 )
+    8. Align
+    9. Spacer
+    10. Expanded
 
 ```
 
