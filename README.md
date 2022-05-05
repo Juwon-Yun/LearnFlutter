@@ -36,9 +36,9 @@
       - direction : Axis.수평 .수직
     7. Stack
       - Stack : container를 쌓는다. ( 겹쳐서 그림 )
-    8. Align
-    9. Spacer
-    10. Expanded
+    8. Align ( align-content와 같음, 배차를 위해 사용 )
+    9. Spacer ( flex의 공간값을 조정하는데 사용한다. param : flex) 
+    10. Expanded (Spacer로 확보한 공간안에 무언가 넣고 싶으면 사용한다.)
 
 ```
 

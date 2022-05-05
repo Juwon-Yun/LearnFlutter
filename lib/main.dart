@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn_flutter/page/align_spacer_expanded.dart';
 import 'package:learn_flutter/page/column_row_stack.dart';
 import 'package:learn_flutter/page/home_page.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.brown,
       ),
       // home: const JuwonHomePage(),
-      home: const MultipleWidgetPage(),
+      // home: const MultipleWidgetPage(),
+      home: const AlignSpacerExpandedWidgetPage(),
     );
   }
 }
