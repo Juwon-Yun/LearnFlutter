@@ -39,7 +39,9 @@ class AlignSpacerExpandedWidgetPage extends StatelessWidget{
          const Spacer(
            flex : 3,
          ),
-         const Expanded(child: const Text("datadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadatadata")),
+         const Expanded(
+             flex: 1,
+             child: const Text("1234")),
          Container(
            color: Colors.purple,
            height: 40,

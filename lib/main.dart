@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learn_flutter/page/align_spacer_expanded.dart';
+import 'package:learn_flutter/page/buttons.dart';
 import 'package:learn_flutter/page/column_row_stack.dart';
 import 'package:learn_flutter/page/home_page.dart';
 
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       ),
       // home: const JuwonHomePage(),
       // home: const MultipleWidgetPage(),
-      home: const AlignSpacerExpandedWidgetPage(),
+      // home: const AlignSpacerExpandedWidgetPage(),
+      home : const MyButtons(),
     );
   }
 }
