@@ -48,6 +48,7 @@
     16. Basic widget (https://docs.flutter.dev/development/ui/widgets/basics)
       - BottomNavigationBar (item의 title은 deprecate, label로 사용해라)
       - Cupertino design
+    17. Navigator.push, Navigator.pop widget위에 widget을 쌓는 개념이다.
 ```
 
 </details>

@@ -8,6 +8,8 @@ import 'package:learn_flutter/page/buttons2.dart';
 import 'package:learn_flutter/page/column_row_stack.dart';
 import 'package:learn_flutter/page/home_page.dart';
 
+import 'navigator/page1.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -29,10 +31,12 @@ class MyApp extends StatelessWidget {
       // home : const MyButtons(),
       // home : MyButtons2(),
       // home: const MyHomePage(name: 'Juwon', title: 'Title',),
-      home: const _ImageHomePage(),
+      // home: const _ImageHomePage(),
+      home: const Page1(),
     );
   }
 }
+
 
 class _ImageHomePage extends StatelessWidget {
   const _ImageHomePage({
@@ -56,15 +60,15 @@ class _ImageHomePage extends StatelessWidget {
           CupertinoActivityIndicator(),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(items: const [
-        BottomNavigationBarItem(
-          label: 'fly',
-          icon: Icon(CupertinoIcons.airplane)),
-        BottomNavigationBarItem(
-          label: 'download',
-          icon: Icon(CupertinoIcons.arrow_down))
-        ],
-      ),
+      // bottomNavigationBar: BottomNavigationBar(items: const [
+      //   BottomNavigationBarItem(
+      //     label: 'fly',
+      //     icon: Icon(CupertinoIcons.airplane)),
+      //   BottomNavigationBarItem(
+      //     label: 'download',
+      //     icon: Icon(CupertinoIcons.arrow_down))
+      //   ],
+      // ),
     );
   }
 }
