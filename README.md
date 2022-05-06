@@ -44,6 +44,7 @@
     12. StatelessWidget, StateFulWidget
     13. floatingActionButton, Icon
     14. stless => name, stful => widget.name
+    15. Image.assets, .network, .file (fit, width, height) 
 ```
 
 </details>

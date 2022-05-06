@@ -44,8 +44,11 @@ class _ImageHomePage extends StatelessWidget {
       appBar: AppBar(),
       body: Column(
         children: [
-         Image.asset('assets/image/image011.jpeg'),
-          Image.asset('assets/image/imagegif001.gif')
+         Image.asset('assets/image/image011.jpeg', width: 100,fit: BoxFit.cover,),
+          Image.asset('assets/image/imagegif001.gif', width: 300, fit: BoxFit.fill,),
+          // 네트워크 이미지도 가능하다. 이미지를 url로 받아와서 캐시화 후에 화면에 렌더링
+          Image.network('https://photo.coolenjoy.net/data/editor/2101/17f13740b84a4beeeeb9d98c70ea5d44fc22f4c1.jpg', width: 100,),
+          // Image.file(), file 객체를 받아와서 이미지로 출력한다. 외부 폴더나 갤러리에 있는 이미지를 받아올 때 사용함
         ],
       ),
     );
