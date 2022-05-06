@@ -47,6 +47,7 @@
     15. Image.assets, .network, .file (fit, width, height) 
     16. Basic widget (https://docs.flutter.dev/development/ui/widgets/basics)
       - BottomNavigationBar (item의 title은 deprecate, label로 사용해라)
+      - Cupertino design
 ```
 
 </details>
