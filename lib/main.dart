@@ -18,15 +18,39 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.brown,
+        primarySwatch: Colors.blueGrey,
       ),
       // home: const JuwonHomePage(),
       // home: const MultipleWidgetPage(),
       // home: const AlignSpacerExpandedWidgetPage(),
       // home : const MyButtons(),
-      home : MyButtons2(),
+      // home : MyButtons2(),
+      home: const MyHomePage(name: 'Juwon', title: 'Title',),
     );
   }
 }
 
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({Key? key, required this.name, required this.title}) : super(key: key);
+
+  final String name;
+  final String title;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Text('Hello $title $name World',
+                style: Theme.of(context).textTheme.headline4),
+            Text('Hello $name')
+          ],
+        )
+      ),
+    );
+  }
+}
 

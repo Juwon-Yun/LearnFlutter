@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 //stful
 //stless 숏컷이 있다.
 
+// widget. 부모 위젯의 속성값을 사용할 수 있다. props?
 class MyButtons2 extends StatefulWidget{
   // 생성자 인스턴스 에서 인수를 전달받는 것은 여기서
   MyButtons2({Key? key}) : super(key : key);
@@ -26,6 +27,7 @@ class _MyButtons2State extends State<MyButtons2> {
             count++;
           });
         },
+        tooltip: 'Increase',
         child: const Icon(
           Icons.add,
           color: Colors.white,
