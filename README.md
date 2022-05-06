@@ -1,9 +1,9 @@
 ### this repo is Learn Basic Flutter for Co-op Company Projects.
 
-🚀🚀🚀🚀🚀Juwon's first Flutter Project🚀🚀🚀🚀🚀
+🚀 Juwon's Flutter Project
 
 <details>
-    <summary> layout </summary>    
+    <summary> flutter </summary>    
 
 ```dart
     1. flutter div => container

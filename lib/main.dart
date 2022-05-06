@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:learn_flutter/page/align_spacer_expanded.dart';
 import 'package:learn_flutter/page/buttons.dart';
@@ -18,14 +20,34 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.indigo,
       ),
       // home: const JuwonHomePage(),
       // home: const MultipleWidgetPage(),
       // home: const AlignSpacerExpandedWidgetPage(),
       // home : const MyButtons(),
       // home : MyButtons2(),
-      home: const MyHomePage(name: 'Juwon', title: 'Title',),
+      // home: const MyHomePage(name: 'Juwon', title: 'Title',),
+      home: const _ImageHomePage(),
+    );
+  }
+}
+
+class _ImageHomePage extends StatelessWidget {
+  const _ImageHomePage({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(),
+      body: Column(
+        children: [
+         Image.asset('assets/image/image011.jpeg'),
+          Image.asset('assets/image/imagegif001.gif')
+        ],
+      ),
     );
   }
 }
