@@ -40,7 +40,7 @@
     9. Spacer ( 여백, flex의 공간값을 조정하는데 사용한다. param : flex) 
     10. Expanded (Spacer로 확보한 공간안에 무언가 넣고 싶으면 사용한다.)
       - 자율성 : Center < Align.alignment의 Alignment.center < const Alignment(0, 0) 
-
+    11. ElevatedButton, OutlinedButton, TextButton 생성자 형태 ( 속성값 )가 동일하다.
 ```
 
 </details>
