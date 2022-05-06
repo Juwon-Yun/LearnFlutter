@@ -19,6 +19,18 @@ class _MyButtons2State extends State<MyButtons2> {
       appBar: AppBar(
         title: const Text('My Buttons Second Lecture'),
       ),
+      // Scaffold안에 플로팅 버튼을 만들 수 있다.
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          setState(() {
+            count++;
+          });
+        },
+        child: const Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
+      ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
