@@ -45,6 +45,8 @@
     13. floatingActionButton, Icon
     14. stless => name, stful => widget.name
     15. Image.assets, .network, .file (fit, width, height) 
+    16. Basic widget (https://docs.flutter.dev/development/ui/widgets/basics)
+      - BottomNavigationBar (item의 title은 deprecate, label로 사용해라)
 ```
 
 </details>
